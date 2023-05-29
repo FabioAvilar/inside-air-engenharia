@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Pagina do Dudu
+          Pagina do Dudu!!
         </a>
       </header>
     </div>
