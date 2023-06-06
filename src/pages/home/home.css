@@ -13,5 +13,63 @@ h1 {
     font-size: 120px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.imagem-escura::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.imagem-escura img {
+    position: relative;
+    z-index: 1;
+}
+
+.imagem-escura h1 {
+    z-index: 3;
+}
+
+.sectionTwo {
+    background-size: cover;
+    background-position: center;
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element-container {
+    padding: 50px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+}
+
+.element-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.element {
+    padding: 50px;
+    width: 500px;
+    height: 550px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.493);
+}
+
+.icon-home {
+    font-size: 50px;
+    padding: 20px;
 }

@@ -1,10 +1,13 @@
-.navbar {
+.nav-bar {
     width: 100%;
     height: 80px;
-    background-color: rgb(19, 19, 19);
+    padding-left: 20px;
+    background-color: #fdfffc;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 4;
 }
 
 .links {
@@ -15,7 +18,18 @@
 
 .links a {
     text-decoration: none;
-    color: white;
+    font-weight: bold;
+    color: #3c096c;
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.projetos:hover {
+    color: red;
+    transition: 0.2s;
+    padding-top: 20px;
+}
+
+.fahouse {
+    color: #3c096c;
 }
