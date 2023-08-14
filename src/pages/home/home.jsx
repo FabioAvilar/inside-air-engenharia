@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import "./home-media.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMap, faClock, faProjectDiagram, faArrowCircleDown, faPlane, faMinus, faEarthAmericas} from "@fortawesome/free-solid-svg-icons";

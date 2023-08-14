@@ -1,15 +1,15 @@
 footer {
     width: 100%;
-    color: var(--color-neutral-40);
+    color: var(--color-details);
 }
 
 .footer-link {
     text-decoration: none;
-    color: var(--title-h1);
+    color: var(--color-02);
 }
 
 .footer_content {
-    background-color: var(white);
+    background-color: var(--color-01);
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-top: 50px;
@@ -44,7 +44,7 @@ footer {
     height: 2.5rem;
     width: 2.5rem;
     font-size: 1.8rem;
-    color: var(--color-neutral-10);
+    color: var(--color-01);
     border-radius: 50%;
     transition: all 0.4s;
 }
@@ -92,13 +92,13 @@ footer {
 }
 
 .footer_subscribe p {
-    color: var(--color-neutral-30);
+    color: var(--color-details);
 }
 
 .input_group {
     display: flex;
     align-items: center;
-    background-color: var(--color-neutral-0);
+    background-color: var(--color-02);
     border-radius: 4px;
 }
 
@@ -109,9 +109,9 @@ footer {
 }
 
 .input_group button {
-    background-color: #7f37c9;
+    background-color: var(--main-color);
     border: none;
-    color: var(--color-neutral-40);
+    color: var(--main-color);
     padding: 0px 1.25rem;
     font-size: 1.125rem;
     height: 100%;
@@ -126,9 +126,9 @@ footer {
 
 .footer_copyright {
     display: flex;
-    color: #0e0c0c;
+    color: var(--color-02);
     justify-content: center;
-    background-color: white;
+    background-color: var(--color-01);
     font-size: 0.9rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -154,7 +154,7 @@ footer {
     align-items: center;
     width: 100%;
     font-family: "Nunito", Sans-serif;
-    color: #5a5f70;
+    color: var(--h2-color);
 }
 
 .grid {
@@ -174,11 +174,11 @@ footer {
 .icon-contact {
     font-size: 50px;
     padding-top: 8px;
-    color: #7e66d7;
+    color: var(--main-color);
 }
 
 .icon-contact:hover {
-    color: #7f37c9;
+    color: var(--main-color);
     scale: 1.1;
     transition: 1.5s;
 }

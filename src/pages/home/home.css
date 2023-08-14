@@ -1,9 +1,8 @@
 /* Sectio One Home */
 
 .sectionOne {
-    background: linear-gradient(
-      rgba(8, 8, 8, 0.631),rgba(52, 58, 190, 0.3)
-    ), url("../../assets/home1.jpg");
+    background: linear-gradient(rgba(8, 8, 8, 0.631), rgba(52, 58, 190, 0.3)),
+        url("../../assets/home1.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -12,31 +11,18 @@
 }
 
 .animation {
-    color: white;
+    color: var(--color-01);
     font-size: 100px;
     text-align: left;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    padding-left: 100px ;
-    animation: moveToLeft 5s linear infinite;
+    padding-left: 100px;
     font-family: "Nunito", Sans-serif;
-}
-
-@keyframes moveToLeft {
-    0% {
-        transform: translateX(-1200px);
-
-    }
-    50% {
-        transform: translateX(0px);
-        transition: 2s;
-        
-    }
 }
 
 .btn-s1 {
     margin-left: 70px;
     margin-top: 500px;
-    border: solid 3px #764ebe;
+    border: solid 3px var(--main-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -46,15 +32,15 @@
     letter-spacing: 0.06em;
     padding: 16px 19px;
     border-radius: 5px;
-    color: #fff;
-    background-color: #764ebe;
+    color: var(--color-01);
+    background-color: var(--main-color);
     text-decoration: none;
 }
 
 .btn-s1:hover {
-    background-color: #fff;
-    border: solid 3px #764ebe;
-    color: #764ebe;
+    background-color: var(--color-01);
+    border: solid 3px var(--main-color);
+    color: var(--main-color);
 }
 
 .dark-image::before {
@@ -62,7 +48,6 @@
     width: 100%;
     height: 100%;
 }
-
 
 /* Sectio Two Home */
 
@@ -74,9 +59,8 @@
     display: flex;
     justify-content: center;
     margin-top: 130px;
-    font-family: "Nunito", Sans-serif;;
+    font-family: "Nunito", Sans-serif;
     margin-top: 70px;
-    
 }
 
 .h2-s2 {
@@ -84,15 +68,14 @@
     font-weight: 800;
     margin-top: 100px;
     font-family: "Nunito", Sans-serif;
-    color: #5a5f70;
+    color: var(--color-h2);
 }
 
 .icon-home-minus {
     height: 90px;
-    color: #66d7d1;
+    color: var(--secondary-color);
     margin-top: -10px;
 }
-
 
 .element-container {
     padding: 50px;
@@ -117,7 +100,7 @@
     height: 400px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.493);
     border-radius: 15px;
-    background: white;
+    background: var(--color-01);
 }
 
 .element:hover {
@@ -128,31 +111,30 @@
 .icon-home {
     font-size: 70px;
     padding: 20px;
-    color: #764ebe;
+    color: var(--main-color);
 }
 
 .element-inside h2 {
     font-weight: 900;
-    color: #5a5f70;
+    color: var(--color-h2);
 }
 
 .element-inside p {
-    margin-top: 40px; 
-    font-size: 20px; 
+    margin-top: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.625;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0em;
     text-align: center;
-    color: #777777;
-
+    color: var(--p-color);
 }
 
 .btn-s2 {
     margin-bottom: 100px;
-    border: solid 3px #79d5ca;
+    border: solid 3px var(--secondary-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -163,22 +145,21 @@
     letter-spacing: 0.06em;
     padding: 16px 19px;
     border-radius: 5px;
-    color: #fff;
-    background-color: #79d5ca;
+    color: var(--color-01);
+    background-color: var(--secondary-color);
 }
 
 .btn-s2:hover {
     background-color: transparent;
-    border: solid 3px #79d5ca;
-    color: #79d5ca;
-
+    border: solid 3px var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 /* Section Three Home */
 .sectionThree {
     background-size: cover;
     background-position: center;
-    background: #fff;
+    background: var(--color-01);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,8 +172,7 @@
     margin-left: auto;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
-    background-color: #f4f6fa;
-
+    background-color: var(--background);
 }
 
 .img {
@@ -210,7 +190,7 @@
 .info-h2 {
     font-size: 40px;
     font-weight: 900;
-    color: #5a5f70;
+    color: var(--color-h2);
 }
 
 .info-p {
@@ -220,7 +200,7 @@
 }
 
 .btn-info {
-    border: solid 3px #764ebe;
+    border: solid 3px var(--main-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -231,24 +211,24 @@
     letter-spacing: 0.06em;
     padding: 16px 19px;
     border-radius: 5px;
-    color: #fff;
+    color: var(--color-01);
     background-color: #764ebe;
 }
 
 .btn-info:hover {
     background-color: transparent;
-    border: solid 3px #764ebe;
-    color: #764ebe;
+    border: solid 3px var(--main-color);
+    color: var(--main-color);
 }
 
 .icon-home-section-three {
     height: 80px;
-    color: #66d7d1;
+    color: var(--secondary-color);
     margin-top: -10px;
 }
 
 .sectionFour {
-    margin: 0px 400px;  
+    margin: 0px 400px;
     height: 600px;
 }
 
@@ -259,29 +239,27 @@
     background-repeat: no-repeat;
 }
 
-
-.sectionFour h2{
+.sectionFour h2 {
     font-size: 40px;
     font-weight: 800;
     padding-top: 150px;
     font-family: "Nunito", Sans-serif;
-    color: #5a5f70;
+    color: var(--color-h2);
 }
-
 
 .comment {
     font-weight: 600;
     font-family: "Nunito", Sans-serif;
-    color: #1d1f45;
+    color: var(--color-02);
     margin-bottom: 30px;
 }
 
 .name-p {
-    color: #5a5f70;
+    color: var(--color-h2);
     font-weight: 600;
 }
 
-.section-four-grid{
+.section-four-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
@@ -294,10 +272,9 @@
 
 .img-section-four {
     border-radius: 16px 16px 16px 16px;
-    box-shadow: 0 24px 40px -16px rgba(0,0,0,.4);
+    box-shadow: 0 24px 40px -16px rgba(0, 0, 0, 0.4);
     width: 80px;
     margin-bottom: 20px;
-    
 }
 
 .detalhe2 {
@@ -312,6 +289,3 @@
     background-size: cover;
     background-position: -700px 0;
 }
-
-
-

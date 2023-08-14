@@ -1,38 +1,11 @@
 
 :root {
-    --title-h1: #050609;
-    --title-h1-hover: #489FB5;
-    --button: #f1f1f1;
-    --button-initial: #5a189a;
-    --button-hover: #c8b6ff;
-    --background-section: #ede7e3;
-}
-
-:root {
-    --color-neutral-0: #0e0c0c;
-    --color-neutral-10: #fdfffc;
-    --color-neutral-30: #3c096c;
-    --color-neutral-40: #7209b7;
-    --title-h1: #050609;
-    --title-h1-hover: #489FB5;
-    --button: #f1f1f1;
-    --button-hover: #ffd763;
-}
-
-:root {
-    --title-h1: #050609;
-    --title-h1-hover: #489FB5;
-    --button: #f1f1f1;
-    --button-initial: #764ebe;
-    --button-hover: #c8b6ff;
-    --background-section: #ede7e3;
-}
-
-:root {
-    --color-neutral-0: #0e0c0c;
-    --color-neutral-10: #fdfffc;
-    --color-neutral-30: #3c096c;
-    --color-neutral-40: #7209b7;
-    --color-background: #f2e9e4;
-    --title-h1-hover: #489fb5;
+    --color-01: #fff;
+    --color-02: #000;
+    --main-color: #764ebe;
+    --color-h2: #5a5f70;
+    --p-color: #777777;
+    --background: #f4f6fa;
+    --color-details: #5a189a;
+    --secondary-color: #66d7d1;
 }

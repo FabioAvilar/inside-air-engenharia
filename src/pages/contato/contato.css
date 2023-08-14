@@ -27,13 +27,13 @@
 .contact-h2 {
     font-size: 30px;
     font-weight: 800;
-    color: #764ebe;
+    color: var(--main-color);
     line-height: 0;
     font-family: 'Archivo Black',sans-serif;
 }
 
 .icon-contact {
-    color: #66d7d1;
+    color: var(--secondary-color);
     padding-top: 0;
     display: block;
     line-height: 0;
@@ -45,7 +45,7 @@
 
 .contact-p {
     font-weight: 200;
-    color: gray;
+    color: var(--p-color);
     font-family: 'Archivo Black',sans-serif;
 }
 
@@ -59,7 +59,7 @@
 
 .contact-p2{
     font-weight: 900;
-    color: #764ebe;
+    color: var(--main-color);
     font-size: 25px;
     display: inline-block;
     line-height: 0;
@@ -93,7 +93,7 @@
     display:inline-block;
     font-size: 25px;
     margin: 0 4px;
-    color: var(--button-initial);
+    color: var(--main-color);
     cursor: pointer;
 }
 
@@ -102,7 +102,7 @@
     margin: 30px 0 5px 0;
     display: block;
     font-weight: 700;
-    color: #666666ce;
+    color: #666666;
 }
 
 .input-1{
@@ -128,7 +128,7 @@
     text-transform: uppercase;
     margin-top: 25px;
     margin-bottom: 100px; 
-    border:solid 3px #764ebe;
+    border:solid 3px var(--main-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -138,14 +138,14 @@
     letter-spacing: 0.06em;
     padding: 16px 19px;
     border-radius: 5px;
-    color: #fff;
-    background-color: #764ebe;
+    color: var(--color-01);
+    background-color: var(--main-color);
 }
 
 .contact-button:hover {
     background-color: transparent;
-    border: solid 3px #764ebe;
-    color: #764ebe;
+    border: solid 3px var(--main-color);
+    color: var(--main-color);
 }
 
 .map-container {
