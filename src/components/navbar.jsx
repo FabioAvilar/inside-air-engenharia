@@ -1,27 +1,48 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons/faHouse";
+import logo from "../assets/home4.png";
 
 export const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
-        <nav className="nav-bar">
-            <FontAwesomeIcon icon={faHouse} flip className="fahouse" />
-            <div className="links">
-                <Link to="/">
-                    Home
-                </Link>
-                <Link to="/Sobre">
-                    Sobre
-                </Link>
-                <Link to="/Projetos" className="projetos">
-                    Projetos
-                </Link>
-                <Link to="/Contato">
-                    Contato
-                </Link>
+        <nav>
+            <Link to="/">
+                <img src={logo} alt="logo inside air" className="logotype" />
+            </Link>
+
+            <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+                <span className="menu-span"></span>
+                <span className="menu-span"></span>
+                <span className="menu-span"></span>
             </div>
+
+            <ul className={menuOpen ? "open" : ""}>
+                <li>
+                    <NavLink to="/" className="projetos home">
+                        Home
+                    </NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/Sobre" className="projetos ">
+                        Sobre
+                    </NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/Projetos" className="projetos">
+                        Serviços
+                    </NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/Contato" className="projetos">
+                        Contato
+                    </NavLink>
+                </li>
+            </ul>
         </nav>
     );
 };

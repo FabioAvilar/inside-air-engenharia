@@ -1,0 +1,154 @@
+
+.contact-container-1 {
+    background-image: url(/src/assets/servicos3.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 0 -400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+.contact-h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 400px 0 80px 120px;
+}
+
+.contact-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px 400px;
+    text-align: left;
+    
+}
+
+.contact-h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #764ebe;
+    line-height: 0;
+    font-family: 'Archivo Black',sans-serif;
+}
+
+.icon-contact {
+    color: #66d7d1;
+    padding-top: 0;
+    display: block;
+    line-height: 0;
+}
+
+.contact-div {
+    margin: 50px 0 0 0;
+}
+
+.contact-p {
+    font-weight: 200;
+    color: gray;
+    font-family: 'Archivo Black',sans-serif;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contact-p2{
+    font-weight: 900;
+    color: #764ebe;
+    font-size: 25px;
+    display: inline-block;
+    line-height: 0;
+    font-family: 'Archivo Black',sans-serif;
+}
+
+.p-whats {
+    display: inline-block;
+    line-height: 0;
+}
+
+.whats {
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon-contact-dados {
+    display: block;
+    color: rgba(128, 128, 128, 0.699);
+    padding-top: 0;
+    line-height: 0;
+    height: 30px;
+}
+
+.contact {
+    margin-top: 25px;
+}
+
+.icon-contact-social {
+    display:inline-block;
+    font-size: 25px;
+    margin: 0 4px;
+    color: var(--button-initial);
+    cursor: pointer;
+}
+
+
+.contact-form label{
+    margin: 30px 0 5px 0;
+    display: block;
+    font-weight: 700;
+    color: #666666ce;
+}
+
+.input-1{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #666;
+    padding: 0.75em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-radius: 2px;
+    background: #FAFAFA;;
+    box-shadow: none;
+    
+}
+
+.input-msg {
+    height: 150px;
+}
+
+.contact-button {
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 100px; 
+    border:solid 3px #764ebe;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: Nunito, sans-serif;
+    min-width: 200px;
+    letter-spacing: 0.06em;
+    padding: 16px 19px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #764ebe;
+}
+
+.contact-button:hover {
+    background-color: transparent;
+    border: solid 3px #764ebe;
+    color: #764ebe;
+}
+
+.map-container {
+    width: 100%;
+    height: 40vh;
+}
