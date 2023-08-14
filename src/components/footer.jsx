@@ -77,7 +77,7 @@ export const Footer = () => {
                         />
                         <div className="email">
                             <h3 className="h3">Telefone:</h3>
-                            <p className="p-add">5945-8569</p>
+                            <p className="p-add">(11) 5945-8569</p>
                         </div>
                     </div>
                     <div className="grid">

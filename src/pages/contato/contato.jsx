@@ -39,7 +39,7 @@ export const Contato = () => {
                             icon={faWhatsapp}
                             className="icon-contact whats"
                         />
-                        <p className="contact-p2"> 3925-5423</p>
+                        <p className="contact-p2">(11) 3925-5423</p>
                         <FontAwesomeIcon
                             icon={faMinus}
                             className="icon-contact-dados"
