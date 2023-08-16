@@ -3,25 +3,35 @@ import "./home.css";
 import "./home-media.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faMap, faClock, faProjectDiagram, faArrowCircleDown, faPlane, faMinus, faEarthAmericas} from "@fortawesome/free-solid-svg-icons";
+import {
+    faMap,
+    faProjectDiagram,
+    faArrowCircleDown,
+    faMinus,
+    faEarthAmericas,
+} from "@fortawesome/free-solid-svg-icons";
 import sobre6 from "../../assets/sobre6.jpg";
 import detalhe2 from "../../assets/detalhe2.png";
 
 export const Home = () => {
     return (
         <>
-            <section className="sectionOne dark-image">
-                <h1 className="animation">
-                    Uma nova <br />
-                    experiencia de <br />
-                    conforto térmico
-                </h1>
-                <Link to="/Projetos">
-                    <button className="btn-s1">SERVIÇOS</button>
-                </Link>
-                <Link to="/Contato">
-                    <button className="btn-s1">ORÇAMENTO</button>
-                </Link>
+            <section className="dark-image">
+                <div className="sectionOne">
+                    <h1 className="animation">
+                        Uma nova <br />
+                        experiencia de <br />
+                        conforto térmico
+                    </h1>
+                    <div className="home-buttons">
+                        <Link to="/Projetos">
+                            <button className="btn-s1">SERVIÇOS</button>
+                        </Link>
+                        <Link to="/Contato">
+                            <button className="btn-s1">ORÇAMENTO</button>
+                        </Link>
+                    </div>
+                </div>
             </section>
             <div className="back">
                 <h2 className="h2-s2">Nossos Serviços</h2>
