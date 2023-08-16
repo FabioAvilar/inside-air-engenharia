@@ -139,7 +139,6 @@ footer {
     color: #ff9807;
 }
 
-
 .dados {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -195,16 +194,15 @@ footer {
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 768px) {
-    .footer_content {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+@media screen and (max-width: 400px) {
+    .dados {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 110vh;
+        margin-top: 2rem;
     }
-}
 
-@media screen and (max-width: 426px) {
-    .footer_content {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
+    .footer_dados {
+        flex-direction: column;
     }
 }
