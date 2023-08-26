@@ -15,7 +15,7 @@
         line-height: 1.5em;
         margin-bottom: 20px;
     }
-    
+
 
     .btn-s1 {
         margin-top: 30px;
@@ -63,9 +63,11 @@
     .comment {
         margin: 2rem;
     }
+
 }
 
-@media (max-width: 844px) {
+@media (min-width:401px) and (max-width: 844px) {
+
     .animation {
         font-size: 35px;
     }
@@ -168,6 +170,11 @@
         font-size: 15px;
         min-width: 50px;
         padding: 8px 1px;
+    }
+
+    .element:hover {
+        scale: 0;
+        transition: 0;
     }
 }
 
