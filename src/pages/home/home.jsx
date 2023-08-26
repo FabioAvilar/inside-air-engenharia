@@ -11,7 +11,7 @@ import {
     faEarthAmericas,
 } from "@fortawesome/free-solid-svg-icons";
 import sobre6 from "../../assets/sobre6.jpg";
-import detalhe2 from "../../assets/detalhe2.png";
+
 
 export const Home = () => {
     return (

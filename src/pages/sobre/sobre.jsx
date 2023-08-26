@@ -4,6 +4,8 @@ import profilePhoto1 from "../../assets/sobre1.jpg";
 import profilePhoto2 from "../../assets/sobre2.jpg";
 import sobre from "../../assets/sobre6.jpg";
 import "./about.css";
+import "./sobre-media.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faBarsProgress,
