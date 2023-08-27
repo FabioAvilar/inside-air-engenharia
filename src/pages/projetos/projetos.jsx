@@ -1,5 +1,6 @@
 import React from "react";
 import "./projetos.css";
+import "./projetos-media.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -131,7 +132,7 @@ export const Projetos = () => {
                         <img
                             src={servico8}
                             alt="Foto do serviço"
-                            className="service-img"
+                            className="service-img service-img-2"
                         />
                     </div>
                 </div>
