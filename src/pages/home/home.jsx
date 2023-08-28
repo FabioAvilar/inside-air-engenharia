@@ -77,11 +77,11 @@ export const Home = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </section>
                 <Link to={"/Sobre"}>
                     <button className="btn-s2">SAIBA MAIS</button>
                 </Link>
+                    </div>
+                </section>
             </div>
             <section className="sectionThree">
                 <div className="container-map">
