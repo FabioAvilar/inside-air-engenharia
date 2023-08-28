@@ -87,7 +87,7 @@
    
 }
 
-@media (min-width: 405px) and (max-width: 844px) {
+@media (min-width: 401px) and (max-width: 844px) {
 
     .servicos-h2 {
         font-size: 30px;
@@ -95,7 +95,9 @@
     }
     
     .services {
-        background-position: 0 -350px;
+        background-position:center;
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .container-service {
@@ -240,7 +242,7 @@
     
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 843px) {
     .servicos-h2 {
         font-size: 30px;
         padding: 90px 0 0px 40px;
@@ -304,7 +306,7 @@
     
 }
 
-@media (min-width: 1025px) and (max-width: 1369px) {
+@media (min-width: 1024px) and (max-width: 1369px) {
     .servicos-h2 {
         font-size: 40px;
         padding: 150px 0 0px 40px;
