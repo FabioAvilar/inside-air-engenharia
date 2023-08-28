@@ -61,10 +61,10 @@
 
     .about-container-2 {
         background-image: url(../../assets/sobre5.jpg);
-        height: 900px;
-        background-position: 00px -600px;
+        height: 500px;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         width: 100%;
         background-attachment: fixed;
     }
@@ -203,4 +203,25 @@
         gap: 25px;
     }
 
-    }
+}
+
+
+@media (min-width: 401px) and (max-width: 844px) {
+
+   
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 843px) {
+   
+}
+
+@media (min-width: 1024px) and (max-width: 1369px) {
+    
+    
+}
+    

@@ -194,6 +194,7 @@ footer {
     margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 400px) {
     .dados {
         display: flex;
@@ -201,8 +202,6 @@ footer {
         height: 110vh;
         margin-top: 5rem;
     }
+=======
+>>>>>>> 2a1fa99a5fd42db01417b97d82797b9328803a25
 
-    .footer_dados {
-        flex-direction: column;
-    }
-}
