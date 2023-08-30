@@ -12,7 +12,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import sobre6 from "../../assets/sobre6.jpg";
 
-
 export const Home = () => {
     return (
         <>
@@ -77,9 +76,9 @@ export const Home = () => {
                                 </p>
                             </div>
                         </div>
-                <Link to={"/Sobre"}>
-                    <button className="btn-s2">SAIBA MAIS</button>
-                </Link>
+                        <Link to={"/Sobre"}>
+                            <button className="btn-s2">SAIBA MAIS</button>
+                        </Link>
                     </div>
                 </section>
             </div>
@@ -114,27 +113,13 @@ export const Home = () => {
                         className="icon-home-section-three"
                     />
                     <div className="section-four-grid">
-                        <div>
+                        <div className="container-comment">
                             <img
                                 src={sobre6}
                                 alt="Foto da empresa"
                                 className="img-section-four"
                             />
-                            <p className="comment">
-                                "Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Numquam perferendis magni
-                                incidunt tempore quia soluta ratione? Labore
-                                distinctio error dolor."
-                            </p>
-                            <p className="name-p">FABIO BASSANI</p>
-                        </div>
-                        <div>
                             <div>
-                                <img
-                                    src={sobre6}
-                                    alt="Foto da empresa"
-                                    className="img-section-four"
-                                />
                                 <p className="comment">
                                     "Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Numquam perferendis magni
@@ -144,13 +129,31 @@ export const Home = () => {
                                 <p className="name-p">FABIO BASSANI</p>
                             </div>
                         </div>
-                        <div>
+
+                        <div className="container-comment">
+                            <img
+                                src={sobre6}
+                                alt="Foto da empresa"
+                                className="img-section-four"
+                            />
                             <div>
-                                <img
-                                    src={sobre6}
-                                    alt="Foto da empresa"
-                                    className="img-section-four"
-                                />
+                                <p className="comment">
+                                    "Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Numquam perferendis magni
+                                    incidunt tempore quia soluta ratione? Labore
+                                    distinctio error dolor."
+                                </p>
+                                <p className="name-p">FABIO BASSANI</p>
+                            </div>
+                        </div>
+
+                        <div className="container-comment">
+                            <img
+                                src={sobre6}
+                                alt="Foto da empresa"
+                                className="img-section-four"
+                            />
+                            <div>
                                 <p className="comment">
                                     "Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Numquam perferendis magni

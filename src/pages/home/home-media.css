@@ -67,6 +67,7 @@
 
     .btn-s2 {
         margin-top: 2rem;
+        position: initial;
     }
 
     .sectionFour {
@@ -84,7 +85,7 @@
     }
 }
 
-@media (min-width: 405px) and (max-width: 844px) {
+@media (min-width: 401px) and (max-width: 844px) {
     .animation {
         font-size: 35px;
     }
@@ -118,7 +119,7 @@
     }
 
     .sectionTwo {
-        height: 180px;
+        height: 250px;
         margin-top: 40px;
     }
 
@@ -152,6 +153,8 @@
         font-size: 12px;
         min-width: 130px;
         padding: 10px 0px;
+        top: 52rem;
+        left: 40%;
     }
 
     .sectionThree {
@@ -188,10 +191,47 @@
         min-width: 50px;
         padding: 8px 1px;
     }
+
+    .section-four-grid {
+        justify-content: space-around;
+    }
+
+    .sectionFour {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 550px;
+    }
+
+    .container-comment {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .comment {
+        width: 9rem;
+        font-size: 0.89rem;
+    }
+
+    .name-p {
+        font-size: 0.7rem;
+    }
 }
 
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 766px) {
 }
 
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 843px) {
+    .btn-s2 {
+        top: 92rem;
+    }
+    .section-four-grid {
+        margin-left: -25px;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1369px) {
 }
