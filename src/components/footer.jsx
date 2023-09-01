@@ -53,7 +53,7 @@ export const Footer = () => {
                     <div className="grid">
                         <FontAwesomeIcon
                             icon={faEarthAmericas}
-                            className="icon-contact"
+                            className="icon-contact icon-footer"
                         />
                         <div className="address">
                             <h3 className="h3">Address:</h3>
@@ -63,7 +63,7 @@ export const Footer = () => {
                     <div className="grid">
                         <FontAwesomeIcon
                             icon={faEnvelopesBulk}
-                            className="icon-contact"
+                            className="icon-contact icon-footer"
                         />
                         <div className="email">
                             <h3 className="h3">Email:</h3>
@@ -75,7 +75,7 @@ export const Footer = () => {
                     <div className="grid">
                         <FontAwesomeIcon
                             icon={faPhone}
-                            className="icon-contact"
+                            className="icon-contact icon-footer"
                         />
                         <div className="email">
                             <h3 className="h3">Telefone:</h3>
@@ -85,7 +85,7 @@ export const Footer = () => {
                     <div className="grid">
                         <FontAwesomeIcon
                             icon={faClock}
-                            className="icon-contact"
+                            className="icon-contact icon-footer"
                         />
                         <div className="hour">
                             <h3 className="h3">Horario de Atendimento:</h3>
