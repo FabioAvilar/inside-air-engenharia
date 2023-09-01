@@ -3,6 +3,7 @@ import "./contato.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus } from "@fortawesome/free-solid-svg-icons";
 import KEY from "../../key_maps.json"
+import "./contato-media.css";
 import {
     faLinkedin,
     faInstagram,
