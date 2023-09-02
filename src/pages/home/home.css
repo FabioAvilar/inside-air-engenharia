@@ -147,6 +147,9 @@
     border-radius: 5px;
     color: var(--color-01);
     background-color: var(--secondary-color);
+    top: 110rem;
+    left: 44%;
+    position: absolute;
 }
 
 .btn-s2:hover {
@@ -287,5 +290,4 @@
 .back {
     background-image: url("../../assets/detalhe5.svg");
     background-size: cover;
-    background-position: -700px 0;
 }

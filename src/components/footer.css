@@ -194,4 +194,12 @@ footer {
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 400px) {
+    .dados {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 110vh;
+        margin-top: 5rem;
+    }
+}
 
