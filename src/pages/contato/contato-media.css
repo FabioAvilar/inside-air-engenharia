@@ -22,10 +22,6 @@
         text-align: center;
     }
 
-    .icon-contact {
-       margin-left: 160px;
-    }
-
     .contact-div {
         margin: 50px 0 0 30px;
     }
@@ -75,10 +71,6 @@
         margin: 120px 40px;
     }
 
-    .icon-contact {
-        height: 40px;
-    }
-
     .whats {
         height: 30px;
         margin-left: 0px;
@@ -104,10 +96,6 @@
     .contact-h1 {
         font-size: 35px;
         padding: 200px 0 0px 60px;
-    }
-
-    .icon-contact {
-        height: 40px;
     }
 
     .whats {
@@ -144,10 +132,6 @@
     .contact-h1 {
         font-size: 35px;
         padding: 200px 0 0px 60px;
-    }
-
-    .icon-contact {
-        height: 50px;
     }
 
     .whats {

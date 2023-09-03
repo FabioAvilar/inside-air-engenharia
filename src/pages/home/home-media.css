@@ -35,7 +35,7 @@
     }
 
     .sectionTwo {
-        height: 220vh;
+        height: 160vh;
     }
 
     .sectionThree {
@@ -88,7 +88,7 @@
     }
 }
 
-@media (min-width: 576) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
     .animation {
         font-size: 35px;
     }
@@ -156,7 +156,7 @@
         font-size: 12px;
         min-width: 130px;
         padding: 10px 0px;
-        top: 52rem;
+        top: 80rem;
         left: 40%;
     }
 
@@ -164,9 +164,15 @@
         height: 250px;
     }
 
+    .container-map {
+        align-items: center;
+    }
+
     .img {
         width: 90%;
         height: 90%;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .info {
@@ -197,6 +203,7 @@
 
     .section-four-grid {
         justify-content: space-around;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .sectionFour {
@@ -204,7 +211,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        height: 550px;
+        height: 55rem;
+        margin: 0;
     }
 
     .container-comment {
