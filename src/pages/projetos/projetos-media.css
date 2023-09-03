@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (min-width: 320px) {
     .servicos-h2 {
         font-size: 20px;
         padding: 90px 30px;
