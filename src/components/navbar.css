@@ -9,6 +9,7 @@ nav {
     align-items: center;
     background-color: var(--color-01);
     top: 0;
+    width: 100vw;
 }
 
 nav ul {
