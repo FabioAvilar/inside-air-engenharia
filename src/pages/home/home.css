@@ -134,7 +134,6 @@
 }
 
 .btn-s2 {
-    margin-bottom: 100px;
     border: solid 3px var(--secondary-color);
     font-size: 18px;
     font-style: normal;
@@ -148,9 +147,7 @@
     border-radius: 5px;
     color: var(--color-01);
     background-color: var(--secondary-color);
-    top: 110rem;
     left: 44%;
-    position: absolute;
 }
 
 .btn-s2:hover {

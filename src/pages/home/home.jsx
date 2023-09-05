@@ -76,6 +76,8 @@ export const Home = () => {
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div>
                         <Link to={"/Sobre"}>
                             <button className="btn-s2">SAIBA MAIS</button>
                         </Link>

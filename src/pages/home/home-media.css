@@ -1,8 +1,20 @@
 @media (min-width: 320px) and (max-width: 575px) {
+    #root {
+        width: 100vw;
+    }
+    
+    .App {
+        width: 100vw;
+    }
+
+    .dark-image {
+        width: 100vw;
+    }
+    
     .sectionOne {
         flex-direction: column;
         align-items: flex-start;
-        width: auto;
+        width: 100vw;
         height: 710px;
     }
 
@@ -30,12 +42,18 @@
         align-items: flex-start;
     }
 
+    .back {
+        height: 215vh;
+    }
+
     .h2-s2 {
         margin-bottom: 0;
     }
 
     .sectionTwo {
-        height: 160vh;
+        height: 15rem;
+        width: 100vw;
+        flex-direction: column-reverse;
     }
 
     .sectionThree {
@@ -88,7 +106,7 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 766px) {
     .animation {
         font-size: 35px;
     }
@@ -280,6 +298,11 @@
         width: fit-content;
     }
 
+    .sectionTwo {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .btn-s1 {
         margin-left: 150px;
         margin-top: 120px;
@@ -299,7 +322,8 @@
     }
 
     .btn-s2 {
-        top: 89rem;
+        position: static;
+        margin-top: 2rem;
     }
     .section-four-grid {
         margin-left: -25px;
@@ -308,10 +332,12 @@
 
     .sectionThree {
         width: 100vw;
+        height: 75rem;
     }
 
     .img {
         background-size: contain;
+        margin-top: 3rem;
         background-repeat: no-repeat;
     }
 
@@ -319,7 +345,20 @@
         align-items: center;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .background {
+        width: 100vw;
+        height: 65rem;
+    }
+
+    .sectionFour {
+        margin: 0px 80px;
+    }
+
+    .section-four-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
-@media (min-width: 1024px) and (max-width: 1369px) {
+@media (min-width: 992px) and (max-width: 1369px) {
 }
