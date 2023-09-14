@@ -60,7 +60,7 @@ nav ul li a:not(.active):hover {
     margin-left: 80px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     nav .menu {
         display: flex;
         flex-direction: column;
