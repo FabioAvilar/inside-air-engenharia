@@ -111,6 +111,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
+    .sectionOne {
+        width: 100vh;
+    }
+    
     .animation {
         font-size: 35px;
     }
